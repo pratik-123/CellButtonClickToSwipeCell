@@ -1,0 +1,524 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D72E2F321BECC18A005FE0DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E2F311BECC18A005FE0DA /* AppDelegate.swift */; };
+		D72E2F341BECC18A005FE0DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E2F331BECC18A005FE0DA /* ViewController.swift */; };
+		D72E2F371BECC18A005FE0DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F351BECC18A005FE0DA /* Main.storyboard */; };
+		D72E2F3A1BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = D72E2F381BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodeld */; };
+		D72E2F3C1BECC18A005FE0DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F3B1BECC18A005FE0DA /* Assets.xcassets */; };
+		D72E2F3F1BECC18A005FE0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F3D1BECC18A005FE0DA /* LaunchScreen.storyboard */; };
+		D72E2F4A1BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E2F491BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.swift */; };
+		D72E2F551BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E2F541BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D72E2F461BECC18B005FE0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72E2F261BECC18A005FE0DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72E2F2D1BECC18A005FE0DA;
+			remoteInfo = TableViewCellButtonSwipeExample;
+		};
+		D72E2F511BECC18B005FE0DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D72E2F261BECC18A005FE0DA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D72E2F2D1BECC18A005FE0DA;
+			remoteInfo = TableViewCellButtonSwipeExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D72E2F2E1BECC18A005FE0DA /* TableViewCellButtonSwipeExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellButtonSwipeExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E2F311BECC18A005FE0DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D72E2F331BECC18A005FE0DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D72E2F361BECC18A005FE0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D72E2F391BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TableViewCellButtonSwipeExample.xcdatamodel; sourceTree = "<group>"; };
+		D72E2F3B1BECC18A005FE0DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D72E2F3E1BECC18A005FE0DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D72E2F401BECC18A005FE0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72E2F451BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellButtonSwipeExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E2F491BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellButtonSwipeExampleTests.swift; sourceTree = "<group>"; };
+		D72E2F4B1BECC18B005FE0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72E2F501BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellButtonSwipeExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D72E2F541BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellButtonSwipeExampleUITests.swift; sourceTree = "<group>"; };
+		D72E2F561BECC18B005FE0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D72E2F2B1BECC18A005FE0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E2F421BECC18B005FE0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E2F4D1BECC18B005FE0DA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D72E2F251BECC18A005FE0DA = {
+			isa = PBXGroup;
+			children = (
+				D72E2F301BECC18A005FE0DA /* TableViewCellButtonSwipeExample */,
+				D72E2F481BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests */,
+				D72E2F531BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests */,
+				D72E2F2F1BECC18A005FE0DA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D72E2F2F1BECC18A005FE0DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D72E2F2E1BECC18A005FE0DA /* TableViewCellButtonSwipeExample.app */,
+				D72E2F451BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.xctest */,
+				D72E2F501BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D72E2F301BECC18A005FE0DA /* TableViewCellButtonSwipeExample */ = {
+			isa = PBXGroup;
+			children = (
+				D72E2F311BECC18A005FE0DA /* AppDelegate.swift */,
+				D72E2F331BECC18A005FE0DA /* ViewController.swift */,
+				D72E2F351BECC18A005FE0DA /* Main.storyboard */,
+				D72E2F3B1BECC18A005FE0DA /* Assets.xcassets */,
+				D72E2F3D1BECC18A005FE0DA /* LaunchScreen.storyboard */,
+				D72E2F401BECC18A005FE0DA /* Info.plist */,
+				D72E2F381BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodeld */,
+			);
+			path = TableViewCellButtonSwipeExample;
+			sourceTree = "<group>";
+		};
+		D72E2F481BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				D72E2F491BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.swift */,
+				D72E2F4B1BECC18B005FE0DA /* Info.plist */,
+			);
+			path = TableViewCellButtonSwipeExampleTests;
+			sourceTree = "<group>";
+		};
+		D72E2F531BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D72E2F541BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift */,
+				D72E2F561BECC18B005FE0DA /* Info.plist */,
+			);
+			path = TableViewCellButtonSwipeExampleUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D72E2F2D1BECC18A005FE0DA /* TableViewCellButtonSwipeExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E2F591BECC18B005FE0DA /* Build configuration list for PBXNativeTarget "TableViewCellButtonSwipeExample" */;
+			buildPhases = (
+				D72E2F2A1BECC18A005FE0DA /* Sources */,
+				D72E2F2B1BECC18A005FE0DA /* Frameworks */,
+				D72E2F2C1BECC18A005FE0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TableViewCellButtonSwipeExample;
+			productName = TableViewCellButtonSwipeExample;
+			productReference = D72E2F2E1BECC18A005FE0DA /* TableViewCellButtonSwipeExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D72E2F441BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E2F5C1BECC18B005FE0DA /* Build configuration list for PBXNativeTarget "TableViewCellButtonSwipeExampleTests" */;
+			buildPhases = (
+				D72E2F411BECC18B005FE0DA /* Sources */,
+				D72E2F421BECC18B005FE0DA /* Frameworks */,
+				D72E2F431BECC18B005FE0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72E2F471BECC18B005FE0DA /* PBXTargetDependency */,
+			);
+			name = TableViewCellButtonSwipeExampleTests;
+			productName = TableViewCellButtonSwipeExampleTests;
+			productReference = D72E2F451BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D72E2F4F1BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D72E2F5F1BECC18B005FE0DA /* Build configuration list for PBXNativeTarget "TableViewCellButtonSwipeExampleUITests" */;
+			buildPhases = (
+				D72E2F4C1BECC18B005FE0DA /* Sources */,
+				D72E2F4D1BECC18B005FE0DA /* Frameworks */,
+				D72E2F4E1BECC18B005FE0DA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D72E2F521BECC18B005FE0DA /* PBXTargetDependency */,
+			);
+			name = TableViewCellButtonSwipeExampleUITests;
+			productName = TableViewCellButtonSwipeExampleUITests;
+			productReference = D72E2F501BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D72E2F261BECC18A005FE0DA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = pratik;
+				TargetAttributes = {
+					D72E2F2D1BECC18A005FE0DA = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					D72E2F441BECC18B005FE0DA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D72E2F2D1BECC18A005FE0DA;
+					};
+					D72E2F4F1BECC18B005FE0DA = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = D72E2F2D1BECC18A005FE0DA;
+					};
+				};
+			};
+			buildConfigurationList = D72E2F291BECC18A005FE0DA /* Build configuration list for PBXProject "TableViewCellButtonSwipeExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D72E2F251BECC18A005FE0DA;
+			productRefGroup = D72E2F2F1BECC18A005FE0DA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D72E2F2D1BECC18A005FE0DA /* TableViewCellButtonSwipeExample */,
+				D72E2F441BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests */,
+				D72E2F4F1BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D72E2F2C1BECC18A005FE0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E2F3F1BECC18A005FE0DA /* LaunchScreen.storyboard in Resources */,
+				D72E2F3C1BECC18A005FE0DA /* Assets.xcassets in Resources */,
+				D72E2F371BECC18A005FE0DA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E2F431BECC18B005FE0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E2F4E1BECC18B005FE0DA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D72E2F2A1BECC18A005FE0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E2F341BECC18A005FE0DA /* ViewController.swift in Sources */,
+				D72E2F3A1BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodeld in Sources */,
+				D72E2F321BECC18A005FE0DA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E2F411BECC18B005FE0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E2F4A1BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D72E2F4C1BECC18B005FE0DA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D72E2F551BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D72E2F471BECC18B005FE0DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72E2F2D1BECC18A005FE0DA /* TableViewCellButtonSwipeExample */;
+			targetProxy = D72E2F461BECC18B005FE0DA /* PBXContainerItemProxy */;
+		};
+		D72E2F521BECC18B005FE0DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D72E2F2D1BECC18A005FE0DA /* TableViewCellButtonSwipeExample */;
+			targetProxy = D72E2F511BECC18B005FE0DA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D72E2F351BECC18A005FE0DA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E2F361BECC18A005FE0DA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D72E2F3D1BECC18A005FE0DA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D72E2F3E1BECC18A005FE0DA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D72E2F571BECC18B005FE0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D72E2F581BECC18B005FE0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D72E2F5A1BECC18B005FE0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewCellButtonSwipeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.TableViewCellButtonSwipeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D72E2F5B1BECC18B005FE0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TableViewCellButtonSwipeExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.TableViewCellButtonSwipeExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D72E2F5D1BECC18B005FE0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewCellButtonSwipeExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.TableViewCellButtonSwipeExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCellButtonSwipeExample.app/TableViewCellButtonSwipeExample";
+			};
+			name = Debug;
+		};
+		D72E2F5E1BECC18B005FE0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TableViewCellButtonSwipeExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.TableViewCellButtonSwipeExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TableViewCellButtonSwipeExample.app/TableViewCellButtonSwipeExample";
+			};
+			name = Release;
+		};
+		D72E2F601BECC18B005FE0DA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewCellButtonSwipeExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.TableViewCellButtonSwipeExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewCellButtonSwipeExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		D72E2F611BECC18B005FE0DA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TableViewCellButtonSwipeExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = pratik.TableViewCellButtonSwipeExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TableViewCellButtonSwipeExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D72E2F291BECC18A005FE0DA /* Build configuration list for PBXProject "TableViewCellButtonSwipeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E2F571BECC18B005FE0DA /* Debug */,
+				D72E2F581BECC18B005FE0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D72E2F591BECC18B005FE0DA /* Build configuration list for PBXNativeTarget "TableViewCellButtonSwipeExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E2F5A1BECC18B005FE0DA /* Debug */,
+				D72E2F5B1BECC18B005FE0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D72E2F5C1BECC18B005FE0DA /* Build configuration list for PBXNativeTarget "TableViewCellButtonSwipeExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E2F5D1BECC18B005FE0DA /* Debug */,
+				D72E2F5E1BECC18B005FE0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		D72E2F5F1BECC18B005FE0DA /* Build configuration list for PBXNativeTarget "TableViewCellButtonSwipeExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D72E2F601BECC18B005FE0DA /* Debug */,
+				D72E2F611BECC18B005FE0DA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		D72E2F381BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				D72E2F391BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodel */,
+			);
+			currentVersion = D72E2F391BECC18A005FE0DA /* TableViewCellButtonSwipeExample.xcdatamodel */;
+			path = TableViewCellButtonSwipeExample.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = D72E2F261BECC18A005FE0DA /* Project object */;
+}
