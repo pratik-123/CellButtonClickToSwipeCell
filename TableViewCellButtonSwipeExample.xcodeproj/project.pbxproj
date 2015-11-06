@@ -15,6 +15,16 @@
 		D72E2F3F1BECC18A005FE0DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F3D1BECC18A005FE0DA /* LaunchScreen.storyboard */; };
 		D72E2F4A1BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E2F491BECC18B005FE0DA /* TableViewCellButtonSwipeExampleTests.swift */; };
 		D72E2F551BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72E2F541BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift */; };
+		D72E2F6D1BECC248005FE0DA /* afghanistan.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F631BECC248005FE0DA /* afghanistan.png */; };
+		D72E2F6E1BECC248005FE0DA /* bangladesh.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F641BECC248005FE0DA /* bangladesh.png */; };
+		D72E2F6F1BECC248005FE0DA /* china.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F651BECC248005FE0DA /* china.png */; };
+		D72E2F701BECC248005FE0DA /* india.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F661BECC248005FE0DA /* india.png */; };
+		D72E2F711BECC248005FE0DA /* japan.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F671BECC248005FE0DA /* japan.png */; };
+		D72E2F721BECC248005FE0DA /* nepal.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F681BECC248005FE0DA /* nepal.png */; };
+		D72E2F731BECC248005FE0DA /* nkorea.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F691BECC248005FE0DA /* nkorea.png */; };
+		D72E2F741BECC248005FE0DA /* pakistan.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F6A1BECC248005FE0DA /* pakistan.png */; };
+		D72E2F751BECC248005FE0DA /* skorea.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F6B1BECC248005FE0DA /* skorea.png */; };
+		D72E2F761BECC248005FE0DA /* srilanka.png in Resources */ = {isa = PBXBuildFile; fileRef = D72E2F6C1BECC248005FE0DA /* srilanka.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		D72E2F501BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TableViewCellButtonSwipeExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D72E2F541BECC18B005FE0DA /* TableViewCellButtonSwipeExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCellButtonSwipeExampleUITests.swift; sourceTree = "<group>"; };
 		D72E2F561BECC18B005FE0DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D72E2F631BECC248005FE0DA /* afghanistan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = afghanistan.png; sourceTree = "<group>"; };
+		D72E2F641BECC248005FE0DA /* bangladesh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bangladesh.png; sourceTree = "<group>"; };
+		D72E2F651BECC248005FE0DA /* china.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = china.png; sourceTree = "<group>"; };
+		D72E2F661BECC248005FE0DA /* india.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = india.png; sourceTree = "<group>"; };
+		D72E2F671BECC248005FE0DA /* japan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = japan.png; sourceTree = "<group>"; };
+		D72E2F681BECC248005FE0DA /* nepal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nepal.png; sourceTree = "<group>"; };
+		D72E2F691BECC248005FE0DA /* nkorea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nkorea.png; sourceTree = "<group>"; };
+		D72E2F6A1BECC248005FE0DA /* pakistan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pakistan.png; sourceTree = "<group>"; };
+		D72E2F6B1BECC248005FE0DA /* skorea.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = skorea.png; sourceTree = "<group>"; };
+		D72E2F6C1BECC248005FE0DA /* srilanka.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = srilanka.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +119,7 @@
 		D72E2F301BECC18A005FE0DA /* TableViewCellButtonSwipeExample */ = {
 			isa = PBXGroup;
 			children = (
+				D72E2F621BECC248005FE0DA /* flag */,
 				D72E2F311BECC18A005FE0DA /* AppDelegate.swift */,
 				D72E2F331BECC18A005FE0DA /* ViewController.swift */,
 				D72E2F351BECC18A005FE0DA /* Main.storyboard */,
@@ -126,6 +147,23 @@
 				D72E2F561BECC18B005FE0DA /* Info.plist */,
 			);
 			path = TableViewCellButtonSwipeExampleUITests;
+			sourceTree = "<group>";
+		};
+		D72E2F621BECC248005FE0DA /* flag */ = {
+			isa = PBXGroup;
+			children = (
+				D72E2F631BECC248005FE0DA /* afghanistan.png */,
+				D72E2F641BECC248005FE0DA /* bangladesh.png */,
+				D72E2F651BECC248005FE0DA /* china.png */,
+				D72E2F661BECC248005FE0DA /* india.png */,
+				D72E2F671BECC248005FE0DA /* japan.png */,
+				D72E2F681BECC248005FE0DA /* nepal.png */,
+				D72E2F691BECC248005FE0DA /* nkorea.png */,
+				D72E2F6A1BECC248005FE0DA /* pakistan.png */,
+				D72E2F6B1BECC248005FE0DA /* skorea.png */,
+				D72E2F6C1BECC248005FE0DA /* srilanka.png */,
+			);
+			path = flag;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,8 +270,18 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D72E2F721BECC248005FE0DA /* nepal.png in Resources */,
 				D72E2F3F1BECC18A005FE0DA /* LaunchScreen.storyboard in Resources */,
 				D72E2F3C1BECC18A005FE0DA /* Assets.xcassets in Resources */,
+				D72E2F761BECC248005FE0DA /* srilanka.png in Resources */,
+				D72E2F701BECC248005FE0DA /* india.png in Resources */,
+				D72E2F6E1BECC248005FE0DA /* bangladesh.png in Resources */,
+				D72E2F6F1BECC248005FE0DA /* china.png in Resources */,
+				D72E2F6D1BECC248005FE0DA /* afghanistan.png in Resources */,
+				D72E2F731BECC248005FE0DA /* nkorea.png in Resources */,
+				D72E2F711BECC248005FE0DA /* japan.png in Resources */,
+				D72E2F741BECC248005FE0DA /* pakistan.png in Resources */,
+				D72E2F751BECC248005FE0DA /* skorea.png in Resources */,
 				D72E2F371BECC18A005FE0DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
